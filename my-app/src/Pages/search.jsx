@@ -13,13 +13,13 @@ const Search = () =>{
         console.log("search ", searchTerm);
       };
     return ( 
-    <div className='bg-gradient-to-r from-green-400 '>   
+    <div className='h-[950px] bg-gradient-to-r from-green-400 items-center'>   
         <div className='flex justify-center items-center'>
-            <h1 className= "md:text-5xl sm:text-4xl text-3xl font-bold m:py-6">
+            <h1 className= "pt-16 md:text-5xl sm:text-4xl text-3xl font-bold m:py-6">
                 find your super
             </h1>
         </div>
-        <div className='flex flex-col sm:flex-row items-center justify-between w-full'>
+        <div className='px-20 flex flex-col sm:flex-row items-center justify-between w-full'>
             <input
               className='p-3 flex w-full rounded-md text-black'
               type='super'
@@ -29,6 +29,14 @@ const Search = () =>{
               Find now
             </button>
           </div>
+        <div className='grid grid-cols-2 gap-2 '>
+        <div>01</div>
+        <div>02</div>
+        <div>03</div>
+        <div>04</div>
+        <div>05</div>
+        <div>06</div>
+        </div>
     </div>
     
     )
